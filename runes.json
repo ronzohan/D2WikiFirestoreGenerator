@@ -1,0 +1,126 @@
+{
+    "runes": {
+        "el": {
+            "imageURL": "https://firebasestorage.googleapis.com/v0/b/d2wiki.appspot.com/o/runes%2FEl.png?alt=media&token=eeb0e898-fad1-432b-a79a-db53933f3fe2",
+            "name": "El",
+            "number": 1,
+            "weaponEffect": "+50 AR, +1 Light Radius",
+            "armorEffect": "+1 Light Radius, +15 Defense",
+            "shieldEffect": "+1 Light Radius, +15 Defense",
+            "clevelRequirement": 11,
+            "sources": {
+                "countess": "normal and above",
+                "hellforge": "normal",
+                "treasure_class": "Act 2 Good and above"
+            }
+        },
+        "eld": {
+            "imageURL": "https://firebasestorage.googleapis.com/v0/b/d2wiki.appspot.com/o/runes%2FEld.png?alt=media&token=b7790882-21a5-46e2-bc4a-dd56c3ebb9df",
+            "name": "Eld",
+            "number": 2,
+            "weaponEffect": "+75% Damage vs. Undead, +50 Attack Rating vs. Undead",
+            "armorEffect": "Lowers Stamina drain by 15%",
+            "shieldEffect": "+7% Blocking",
+            "clevelRequirement": 11
+        },
+        "tir": {
+            "imageURL": "https://firebasestorage.googleapis.com/v0/b/d2wiki.appspot.com/o/runes%2FTir.png?alt=media&token=4017b5ee-1e76-4a02-8bbc-38d2f83f3a4b",
+            "name": "Tir",
+            "number": 3,
+            "weaponEffect": "+2 Mana Per Kill",
+            "armorEffect": "+2 Mana Per Kill",
+            "shieldEffect": "+2 Mana Per Kill",
+            "clevelRequirement": 13
+        },
+        "nef": {
+            "imageURL": "https://firebasestorage.googleapis.com/v0/b/d2wiki.appspot.com/o/runes%2FNef.png?alt=media&token=ae8236e6-37df-4653-a38e-ec1d273865a4",
+            "name": "Nef",
+            "number": 4,
+            "weaponEffect": "Knockback",
+            "armorEffect": "+30 Defense vs. Missile",
+            "shieldEffect": "+30 Defense vs. Missile",
+            "clevelRequirement": 13
+        },
+        "eth": {
+            "imageURL": "https://firebasestorage.googleapis.com/v0/b/d2wiki.appspot.com/o/runes%2FEth.png?alt=media&token=d5ab0b81-6448-43f5-be5e-514f0a161a40",
+            "name": "Eth",
+            "number": 5,
+            "weaponEffect": "-25% Target Defense",
+            "armorEffect": "Regenerate Mana 15%",
+            "shieldEffect": "Regenerate Mana 15%",
+            "clevelRequirement": 13
+        },
+        "ith": {
+            "imageURL": "https://firebasestorage.googleapis.com/v0/b/d2wiki.appspot.com/o/runes%2FIth.png?alt=media&token=5c5296c2-d889-4fbf-ae62-aae7935a5611",
+            "name": "Ith",
+            "number": 6,
+            "weaponEffect": "+9 to Maximum Damage",
+            "armorEffect": "15% Damage Taken Goes to Mana",
+            "shieldEffect": "15% Damage Taken Goes to Mana",
+            "clevelRequirement": 15
+        },
+        "tal": {
+            "imageURL": "https://firebasestorage.googleapis.com/v0/b/d2wiki.appspot.com/o/runes%2FTal.png?alt=media&token=2e56a4d5-66d9-4a04-b170-000e04e7c7ba",
+            "name": "Tal",
+            "number": 7,
+            "weaponEffect": "75 Poison damage over 5 seconds",
+            "armorEffect": "+30% Poison Resistance",
+            "shieldEffect": "+35% Poison Resistance",
+            "clevelRequirement": 17
+        },
+        "ral": {
+            "imageURL": "https://firebasestorage.googleapis.com/v0/b/d2wiki.appspot.com/o/runes%2FRal.png?alt=media&token=bec192e1-9770-4c19-9dab-80c592205738",
+            "name": "Ral",
+            "number": 8,
+            "weaponEffect": "+5-30 Fire Damage",
+            "armorEffect": "30% Fire Resistance",
+            "shieldEffect": "+35% Fire Resistance",
+            "clevelRequirement": 19
+        },
+        "ort": {
+            "imageURL": "https://firebasestorage.googleapis.com/v0/b/d2wiki.appspot.com/o/runes%2FOrt.png?alt=media&token=8bc7b01f-42ee-4859-8da6-c77866130e8d",
+            "name": "Ort",
+            "number": 9,
+            "weaponEffect": "+1-50 Lightning Damage",
+            "armorEffect": "+30% Lightning Resistance",
+            "shieldEffect": "+35% Lightning Resistance",
+            "clevelRequirement": 21
+        },
+        "thul": {
+            "imageURL": "https://firebasestorage.googleapis.com/v0/b/d2wiki.appspot.com/o/runes%2FThul.png?alt=media&token=ac0911ed-d8ce-4b19-9b55-3e789bd9e17c",
+            "name": "Thul",
+            "number": 10,
+            "weaponEffect": "+3-14 Cold Damage (Cold Length 3 seconds)",
+            "armorEffect": "+30% Cold Resistance",
+            "shieldEffect": "+35% Cold Resistance",
+            "clevelRequirement": 23
+        },
+        "amn": {
+            "imageURL": "https://firebasestorage.googleapis.com/v0/b/d2wiki.appspot.com/o/runes%2FAmn.png?alt=media&token=2079efb4-5df0-473d-94e0-53176cfc6f1d",
+            "name": "Amn",
+            "number": 11,
+            "weaponEffect": "7% Life Stolen Per Hit",
+            "armorEffect": "Attacker takes 14 damage",
+            "shieldEffect": "Attacker takes 14 damage",
+            "clevelRequirement": 25
+        },
+        "sol": {
+            "imageURL": "https://firebasestorage.googleapis.com/v0/b/d2wiki.appspot.com/o/runes%2FSol.png?alt=media&token=67daefda-cf84-4d87-9660-4df0a76579e8",
+            "name": "Sol",
+            "number": 12,
+            "weaponEffect": "+9 to Minimum Damage",
+            "armorEffect": "-7 Damage Taken",
+            "shieldEffect": "-7 Damage Taken",
+            "clevelRequirement": 27
+        },
+        "shael": {
+            "imageURL": "https://firebasestorage.googleapis.com/v0/b/d2wiki.appspot.com/o/runes%2FShael.png?alt=media&token=eda0859d-9271-4ee9-92e2-9f7f4beac8a3",
+            "name": "Shael",
+            "number": 13,
+            "weaponEffect": "Faster Attack Rate (+20)",
+            "armorEffect": "Faster Hit Recovery (+20)",
+            "shieldEffect": "Faster Block Rate (+20)",
+            "clevelRequirement": 29
+        }
+    }
+}
