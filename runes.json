@@ -1,6 +1,7 @@
 {
     "runes": {
         "el": {
+            "id": "el",
             "imageURL": "https://firebasestorage.googleapis.com/v0/b/d2wiki.appspot.com/o/runes%2FEl.png?alt=media&token=eeb0e898-fad1-432b-a79a-db53933f3fe2",
             "name": "El",
             "number": 1,
@@ -10,6 +11,7 @@
             "clevelRequirement": 11
         },
         "eld": {
+            "id": "eld",
             "imageURL": "https://firebasestorage.googleapis.com/v0/b/d2wiki.appspot.com/o/runes%2FEld.png?alt=media&token=b7790882-21a5-46e2-bc4a-dd56c3ebb9df",
             "name": "Eld",
             "number": 2,
@@ -27,6 +29,7 @@
             }
         },
         "tir": {
+            "id": "tir",
             "imageURL": "https://firebasestorage.googleapis.com/v0/b/d2wiki.appspot.com/o/runes%2FTir.png?alt=media&token=4017b5ee-1e76-4a02-8bbc-38d2f83f3a4b",
             "name": "Tir",
             "number": 3,
@@ -44,105 +47,229 @@
             }
         },
         "nef": {
+            "id": "nef",
             "imageURL": "https://firebasestorage.googleapis.com/v0/b/d2wiki.appspot.com/o/runes%2FNef.png?alt=media&token=ae8236e6-37df-4653-a38e-ec1d273865a4",
             "name": "Nef",
             "number": 4,
             "weaponEffect": "Knockback",
             "armorEffect": "+30 Defense vs. Missile",
             "shieldEffect": "+30 Defense vs. Missile",
-            "clevelRequirement": 13
+            "clevelRequirement": 13,
+            "recipe": {
+                "rune": {
+                    "id": "tir",
+                    "name": "Tir",
+                    "imageURL": "https://firebasestorage.googleapis.com/v0/b/d2wiki.appspot.com/o/runes%2FTir.png?alt=media&token=4017b5ee-1e76-4a02-8bbc-38d2f83f3a4b",
+                    "count": 3
+                }
+            }
         },
         "eth": {
+            "id": "eth",
             "imageURL": "https://firebasestorage.googleapis.com/v0/b/d2wiki.appspot.com/o/runes%2FEth.png?alt=media&token=d5ab0b81-6448-43f5-be5e-514f0a161a40",
             "name": "Eth",
             "number": 5,
             "weaponEffect": "-25% Target Defense",
             "armorEffect": "Regenerate Mana 15%",
             "shieldEffect": "Regenerate Mana 15%",
-            "clevelRequirement": 13
+            "clevelRequirement": 13,
+            "recipe": {
+                "rune": {
+                    "id": "nef",
+                    "name": "Nef",
+                    "imageURL": "https://firebasestorage.googleapis.com/v0/b/d2wiki.appspot.com/o/runes%2FNef.png?alt=media&token=ae8236e6-37df-4653-a38e-ec1d273865a4",
+                    "count": 3
+                }
+            }
         },
         "ith": {
+            "id": "ith",
             "imageURL": "https://firebasestorage.googleapis.com/v0/b/d2wiki.appspot.com/o/runes%2FIth.png?alt=media&token=5c5296c2-d889-4fbf-ae62-aae7935a5611",
             "name": "Ith",
             "number": 6,
             "weaponEffect": "+9 to Maximum Damage",
             "armorEffect": "15% Damage Taken Goes to Mana",
             "shieldEffect": "15% Damage Taken Goes to Mana",
-            "clevelRequirement": 15
+            "clevelRequirement": 15,
+            "recipe": {
+                "rune": {
+                    "id": "eth",
+                    "name": "Eth",
+                    "imageURL": "https://firebasestorage.googleapis.com/v0/b/d2wiki.appspot.com/o/runes%2FEth.png?alt=media&token=d5ab0b81-6448-43f5-be5e-514f0a161a40",
+                    "count": 3
+                }
+            }
         },
         "tal": {
+            "id": "tal",
             "imageURL": "https://firebasestorage.googleapis.com/v0/b/d2wiki.appspot.com/o/runes%2FTal.png?alt=media&token=2e56a4d5-66d9-4a04-b170-000e04e7c7ba",
             "name": "Tal",
             "number": 7,
             "weaponEffect": "75 Poison damage over 5 seconds",
             "armorEffect": "+30% Poison Resistance",
             "shieldEffect": "+35% Poison Resistance",
-            "clevelRequirement": 17
+            "clevelRequirement": 17,
+            "recipe": {
+                "rune": {
+                    "id": "ith",
+                    "name": "Ith",
+                    "imageURL": "https://firebasestorage.googleapis.com/v0/b/d2wiki.appspot.com/o/runes%2FIth.png?alt=media&token=5c5296c2-d889-4fbf-ae62-aae7935a5611",
+                    "count": 3
+                }
+            }
         },
         "ral": {
+            "id": "ral",
             "imageURL": "https://firebasestorage.googleapis.com/v0/b/d2wiki.appspot.com/o/runes%2FRal.png?alt=media&token=bec192e1-9770-4c19-9dab-80c592205738",
             "name": "Ral",
             "number": 8,
             "weaponEffect": "+5-30 Fire Damage",
             "armorEffect": "30% Fire Resistance",
             "shieldEffect": "+35% Fire Resistance",
-            "clevelRequirement": 19
+            "clevelRequirement": 19,
+            "recipe": {
+                "rune": {
+                    "id": "tal",
+                    "name": "Tal",
+                    "imageURL": "https://firebasestorage.googleapis.com/v0/b/d2wiki.appspot.com/o/runes%2FTal.png?alt=media&token=2e56a4d5-66d9-4a04-b170-000e04e7c7ba",
+                    "count": 3
+                }
+            }
         },
         "ort": {
+            "id": "ort",
             "imageURL": "https://firebasestorage.googleapis.com/v0/b/d2wiki.appspot.com/o/runes%2FOrt.png?alt=media&token=8bc7b01f-42ee-4859-8da6-c77866130e8d",
             "name": "Ort",
             "number": 9,
             "weaponEffect": "+1-50 Lightning Damage",
             "armorEffect": "+30% Lightning Resistance",
             "shieldEffect": "+35% Lightning Resistance",
-            "clevelRequirement": 21
+            "clevelRequirement": 21,
+            "recipe": {
+                "rune": {
+                    "id": "ral",
+                    "name": "Ral",
+                    "imageURL": "https://firebasestorage.googleapis.com/v0/b/d2wiki.appspot.com/o/runes%2FRal.png?alt=media&token=bec192e1-9770-4c19-9dab-80c592205738",
+                    "count": 3
+                }
+            }
         },
         "thul": {
+            "id": "thul",
             "imageURL": "https://firebasestorage.googleapis.com/v0/b/d2wiki.appspot.com/o/runes%2FThul.png?alt=media&token=ac0911ed-d8ce-4b19-9b55-3e789bd9e17c",
             "name": "Thul",
             "number": 10,
             "weaponEffect": "+3-14 Cold Damage (Cold Length 3 seconds)",
             "armorEffect": "+30% Cold Resistance",
             "shieldEffect": "+35% Cold Resistance",
-            "clevelRequirement": 23
+            "clevelRequirement": 23,
+            "recipe": {
+                "rune": {
+                    "id": "ort",
+                    "name": "Ort",
+                    "imageURL": "https://firebasestorage.googleapis.com/v0/b/d2wiki.appspot.com/o/runes%2FOrt.png?alt=media&token=8bc7b01f-42ee-4859-8da6-c77866130e8d",
+                    "count": 3
+                }
+            }
         },
         "amn": {
+            "id": "amn",
             "imageURL": "https://firebasestorage.googleapis.com/v0/b/d2wiki.appspot.com/o/runes%2FAmn.png?alt=media&token=2079efb4-5df0-473d-94e0-53176cfc6f1d",
             "name": "Amn",
             "number": 11,
             "weaponEffect": "7% Life Stolen Per Hit",
             "armorEffect": "Attacker takes 14 damage",
             "shieldEffect": "Attacker takes 14 damage",
-            "clevelRequirement": 25
+            "clevelRequirement": 25,
+            "recipe": {
+                "rune": {
+                    "id": "thul",
+                    "name": "Thul",
+                    "imageURL": "https://firebasestorage.googleapis.com/v0/b/d2wiki.appspot.com/o/runes%2FThul.png?alt=media&token=ac0911ed-d8ce-4b19-9b55-3e789bd9e17c",
+                    "count": 3
+                },
+                "gem": {
+                    "id": "chipped_topaz",
+                    "name": "Chipped Topaz",
+                    "imageURL": "https://firebasestorage.googleapis.com/v0/b/d2wiki.appspot.com/o/gems%2Fchipped_topaz.png?alt=media&token=36746ec5-4161-4b9d-8312-9d755baa7344",
+                    "count": 1
+                }
+            }
         },
         "sol": {
+            "id": "sol",
             "imageURL": "https://firebasestorage.googleapis.com/v0/b/d2wiki.appspot.com/o/runes%2FSol.png?alt=media&token=67daefda-cf84-4d87-9660-4df0a76579e8",
             "name": "Sol",
             "number": 12,
             "weaponEffect": "+9 to Minimum Damage",
             "armorEffect": "-7 Damage Taken",
             "shieldEffect": "-7 Damage Taken",
-            "clevelRequirement": 27
+            "clevelRequirement": 27,
+            "recipe": {
+                "rune": {
+                    "id": "amn",
+                    "name": "Amn",
+                    "imageURL": "https://firebasestorage.googleapis.com/v0/b/d2wiki.appspot.com/o/runes%2FAmn.png?alt=media&token=2079efb4-5df0-473d-94e0-53176cfc6f1d",
+                    "count": 3
+                },
+                "gem": {
+                    "id": "chipped_amethyst",
+                    "name": "Chipped Amethyst",
+                    "imageURL": "https://firebasestorage.googleapis.com/v0/b/d2wiki.appspot.com/o/gems%2Fchipped_amethyst.png?alt=media&token=8a68d26d-8a67-4909-baa2-45e8db551e1e",
+                    "count": 1
+                }
+            }
         },
         "shael": {
+            "id": "shael",
             "imageURL": "https://firebasestorage.googleapis.com/v0/b/d2wiki.appspot.com/o/runes%2FShael.png?alt=media&token=eda0859d-9271-4ee9-92e2-9f7f4beac8a3",
             "name": "Shael",
             "number": 13,
             "weaponEffect": "Faster Attack Rate (+20)",
             "armorEffect": "Faster Hit Recovery (+20)",
             "shieldEffect": "Faster Block Rate (+20)",
-            "clevelRequirement": 29
+            "clevelRequirement": 29,
+            "recipe": {
+                "rune": {
+                    "id": "sol",
+                    "name": "Sol",
+                    "imageURL": "https://firebasestorage.googleapis.com/v0/b/d2wiki.appspot.com/o/runes%2FSol.png?alt=media&token=67daefda-cf84-4d87-9660-4df0a76579e8",
+                    "count": 3
+                },
+                "gem": {
+                    "id": "chipped_sapphire",
+                    "name": "Chipped Sapphire",
+                    "imageURL": "https://firebasestorage.googleapis.com/v0/b/d2wiki.appspot.com/o/gems%2Fchipped_sapphire.png?alt=media&token=b4c4afbe-5eaf-49cf-9263-40b95f9d52c7",
+                    "count": 1
+                }
+            }
         },
         "dol": {
+            "id": "dol",
             "imageURL": "https://firebasestorage.googleapis.com/v0/b/d2wiki.appspot.com/o/runes%2FDol.png?alt=media&token=004ecc72-b7f7-4c2d-b4c0-858b50df6e37",
             "name": "Dol",
             "number": 14,
             "weaponEffect": "25% Chance that Hit Causes Monster to Flee",
             "armorEffect": "+7 Replenish Life",
             "shieldEffect": "+7 Replenish Life",
-            "clevelRequirement": 31
+            "clevelRequirement": 31,
+            "recipe": {
+                "rune": {
+                    "id": "shael",
+                    "name": "Shael",
+                    "imageURL": "https://firebasestorage.googleapis.com/v0/b/d2wiki.appspot.com/o/runes%2FShael.png?alt=media&token=eda0859d-9271-4ee9-92e2-9f7f4beac8a3",
+                    "count": 3
+                },
+                "gem": {
+                    "id": "chipped_ruby",
+                    "name": "Chipped Ruby",
+                    "imageURL": "https://firebasestorage.googleapis.com/v0/b/d2wiki.appspot.com/o/gems%2Fchipped_ruby.png?alt=media&token=f04ad58b-edfc-4167-8c45-6d5047502773",
+                    "count": 1
+                }
+            }
         },
         "hel": {
+            "id": "hel",
             "imageURL": "https://firebasestorage.googleapis.com/v0/b/d2wiki.appspot.com/o/runes%2FHel.png?alt=media&token=592bc9df-b8e8-4809-a452-30ae420560a0",
             "name": "Hel",
             "number": 15,
@@ -150,169 +277,453 @@
             "armorEffect": "-15% Requirements",
             "shieldEffect": "-15% Requirements",
             "clevelRequirement": null,
-            "ilevel": 33
+            "ilevel": 33,
+            "recipe": {
+                "rune": {
+                    "id": "dol",
+                    "name": "Dol",
+                    "imageURL": "https://firebasestorage.googleapis.com/v0/b/d2wiki.appspot.com/o/runes%2FDol.png?alt=media&token=004ecc72-b7f7-4c2d-b4c0-858b50df6e37",
+                    "count": 3
+                },
+                "gem": {
+                    "id": "chipped_emerald",
+                    "name": "Chipped Emerald",
+                    "imageURL": "https://firebasestorage.googleapis.com/v0/b/d2wiki.appspot.com/o/gems%2Fchipped_emerald.png?alt=media&token=be56e4d5-6c04-401a-893b-2f3a3f984918",
+                    "count": 1
+                }
+            }
         },
         "io": {
+            "id": "io",
             "imageURL": "https://firebasestorage.googleapis.com/v0/b/d2wiki.appspot.com/o/runes%2FIo.png?alt=media&token=8d233e6e-e516-432c-bfdc-66defd8a733b",
             "name": "Io",
             "number": 16,
             "weaponEffect": "+10 Vitality",
             "armorEffect": "+10 Vitality",
             "shieldEffect": "+10 Vitality",
-            "clevelRequirement": 35
+            "clevelRequirement": 35,
+            "recipe": {
+                "rune": {
+                    "id": "hel",
+                    "name": "Hel",
+                    "imageURL": "https://firebasestorage.googleapis.com/v0/b/d2wiki.appspot.com/o/runes%2FHel.png?alt=media&token=592bc9df-b8e8-4809-a452-30ae420560a0",
+                    "count": 3
+                },
+                "gem": {
+                    "id": "chipped_diamond",
+                    "name": "Chipped Diamond",
+                    "imageURL": "https://firebasestorage.googleapis.com/v0/b/d2wiki.appspot.com/o/gems%2Fchipped_diamond.png?alt=media&token=d262a505-a048-4775-b49d-51507ea2ccae",
+                    "count": 1
+                }
+            }
         },
         "lum": {
+            "id": "lum",
             "imageURL": "https://firebasestorage.googleapis.com/v0/b/d2wiki.appspot.com/o/runes%2FLum.png?alt=media&token=956a9b57-0d49-4293-9952-e80d244fa1b0",
             "name": "Lum",
             "number": 17,
             "weaponEffect": "+10 Energy",
             "armorEffect": "+10 Energy",
             "shieldEffect": "+10 Energy",
-            "clevelRequirement": 37
+            "clevelRequirement": 37,
+            "recipe": {
+                "rune": {
+                    "id": "io",
+                    "name": "Io",
+                    "imageURL": "https://firebasestorage.googleapis.com/v0/b/d2wiki.appspot.com/o/runes%2FIo.png?alt=media&token=8d233e6e-e516-432c-bfdc-66defd8a733b",
+                    "count": 3
+                },
+                "gem": {
+                    "id": "flawed_topaz",
+                    "name": "Flawed Topaz",
+                    "imageURL": "https://firebasestorage.googleapis.com/v0/b/d2wiki.appspot.com/o/gems%2Fflawed_topaz.png?alt=media&token=b4c98af9-cf4b-4dde-a3fe-aa866234cc9e",
+                    "count": 1
+                }
+            }
         },
         "ko": {
+            "id": "ko",
             "imageURL": "https://firebasestorage.googleapis.com/v0/b/d2wiki.appspot.com/o/runes%2FKo.png?alt=media&token=82502fc5-d709-4ec8-9c34-81d822ec272e",
             "name": "Ko",
             "number": 18,
             "weaponEffect": "+10 Dexterity",
             "armorEffect": "+10 Dexterity",
             "shieldEffect": "+10 Dexterity",
-            "clevelRequirement": 39
+            "clevelRequirement": 39,
+            "recipe": {
+                "rune": {
+                    "id": "lum",
+                    "name": "Lum",
+                    "imageURL": "https://firebasestorage.googleapis.com/v0/b/d2wiki.appspot.com/o/runes%2FLum.png?alt=media&token=956a9b57-0d49-4293-9952-e80d244fa1b0",
+                    "count": 3
+                },
+                "gem": {
+                    "id": "flawed_amethyst",
+                    "name": "Flawed Amethyst",
+                    "imageURL": "https://firebasestorage.googleapis.com/v0/b/d2wiki.appspot.com/o/gems%2Fflawed_amethyst.png?alt=media&token=b286723d-df05-4663-80d7-fe46e475aeb0",
+                    "count": 1
+                }
+            }
         },
         "fal": {
+            "id": "fal",
             "imageURL": "https://firebasestorage.googleapis.com/v0/b/d2wiki.appspot.com/o/runes%2FFal.png?alt=media&token=094fdba5-f29a-4dc1-9603-29801861f460",
             "name": "Fal",
             "number": 19,
             "weaponEffect": "+10 Strength",
             "armorEffect": "+10 Strength",
             "shieldEffect": "+10 Strength",
-            "clevelRequirement": 41
+            "clevelRequirement": 41,
+            "recipe": {
+                "rune": {
+                    "id": "ko",
+                    "name": "Ko",
+                    "imageURL": "https://firebasestorage.googleapis.com/v0/b/d2wiki.appspot.com/o/runes%2FKo.png?alt=media&token=82502fc5-d709-4ec8-9c34-81d822ec272e",
+                    "count": 3
+                },
+                "gem": {
+                    "id": "flawed_sapphire",
+                    "name": "Flawed Sapphire",
+                    "imageURL": "https://firebasestorage.googleapis.com/v0/b/d2wiki.appspot.com/o/gems%2Fflawed_sapphire.png?alt=media&token=d20250e9-6d6e-47d2-8901-8352a34066f6",
+                    "count": 1
+                }
+            }
         },
         "lem": {
+            "id": "lem",
             "imageURL": "https://firebasestorage.googleapis.com/v0/b/d2wiki.appspot.com/o/runes%2FLem.png?alt=media&token=36497581-bf54-4b1f-96bd-065d0d80ec3b",
             "name": "Lem",
             "number": 20,
             "weaponEffect": "+75% Extra Gold from Monsters",
             "armorEffect": "+50% Extra Gold from Monsters",
             "shieldEffect": "+50% Extra Gold from Monsters",
-            "clevelRequirement": 43
+            "clevelRequirement": 43,
+            "recipe": {
+                "rune": {
+                    "id": "fal",
+                    "name": "Fal",
+                    "imageURL": "https://firebasestorage.googleapis.com/v0/b/d2wiki.appspot.com/o/runes%2FFal.png?alt=media&token=094fdba5-f29a-4dc1-9603-29801861f460",
+                    "count": 3
+                },
+                "gem": {
+                    "id": "flawed_ruby",
+                    "name": "Flawed Ruby",
+                    "imageURL": "https://firebasestorage.googleapis.com/v0/b/d2wiki.appspot.com/o/gems%2Fflawed_ruby.png?alt=media&token=1012b2da-e18a-458e-af92-1f403be20f7c",
+                    "count": 1
+                }
+            }
         },
         "pul": {
+            "id": "pul",
             "imageURL": "https://firebasestorage.googleapis.com/v0/b/d2wiki.appspot.com/o/runes%2FPul.png?alt=media&token=990a49cb-a1c8-4f67-b809-28f561a8e81f",
             "name": "Pul",
             "number": 21,
             "weaponEffect": "+75% Damage to Demons, +100 AR against Demons",
             "armorEffect": "+30% Defense",
             "shieldEffect": "+30% Defense",
-            "clevelRequirement": 45
+            "clevelRequirement": 45,
+            "recipe": {
+                "rune": {
+                    "id": "lem",
+                    "name": "Lem",
+                    "imageURL": "https://firebasestorage.googleapis.com/v0/b/d2wiki.appspot.com/o/runes%2FLem.png?alt=media&token=36497581-bf54-4b1f-96bd-065d0d80ec3b",
+                    "count": 3
+                },
+                "gem": {
+                    "id": "flawed_emerald",
+                    "name": "Flawed Emerald",
+                    "imageURL": "https://firebasestorage.googleapis.com/v0/b/d2wiki.appspot.com/o/gems%2Fflawed_emerald.png?alt=media&token=1ee753cc-be09-41d5-a852-4e27f58deb0f",
+                    "count": 1
+                }
+            }
         },
         "um": {
+            "id": "um",
             "imageURL": "https://firebasestorage.googleapis.com/v0/b/d2wiki.appspot.com/o/runes%2FUm.png?alt=media&token=9537759f-13a3-419c-923d-bdb9e328e969",
             "name": "Um",
             "number": 22,
             "weaponEffect": "25% Chance of Open Wounds",
             "armorEffect": "+15% Resist All",
             "shieldEffect": "+22% Resist All",
-            "clevelRequirement": 47
+            "clevelRequirement": 47,
+            "recipe": {
+                "rune": {
+                    "id": "pul",
+                    "name": "Pul",
+                    "imageURL": "https://firebasestorage.googleapis.com/v0/b/d2wiki.appspot.com/o/runes%2FPul.png?alt=media&token=990a49cb-a1c8-4f67-b809-28f561a8e81f",
+                    "count": 2
+                },
+                "gem": {
+                    "id": "flawed_diamond",
+                    "name": "Flawed Diamond",
+                    "imageURL": "https://firebasestorage.googleapis.com/v0/b/d2wiki.appspot.com/o/gems%2Fflawed_diamond.png?alt=media&token=f90d066f-cc8e-4c44-a431-e0adb3076156",
+                    "count": 1
+                }
+            }
         },
         "mal": {
+            "id": "mal",
             "imageURL": "https://firebasestorage.googleapis.com/v0/b/d2wiki.appspot.com/o/runes%2FMal.png?alt=media&token=8590f501-46bc-441e-a21f-ba1fd18fc633",
             "name": "Mal",
             "number": 23,
             "weaponEffect": "Prevent Monster Healing",
             "armorEffect": "Reduce Magic Damage by 7",
             "shieldEffect": "Reduce Magic Damage by 7",
-            "clevelRequirement": 49
+            "clevelRequirement": 49,
+            "recipe": {
+                "rune": {
+                    "id": "um",
+                    "name": "Um",
+                    "imageURL": "https://firebasestorage.googleapis.com/v0/b/d2wiki.appspot.com/o/runes%2FUm.png?alt=media&token=9537759f-13a3-419c-923d-bdb9e328e969",
+                    "count": 2
+                },
+                "gem": {
+                    "id": "regular  _topaz",
+                    "name": "Topaz",
+                    "imageURL": "https://firebasestorage.googleapis.com/v0/b/d2wiki.appspot.com/o/gems%2Fregular_topaz.png?alt=media&token=882054ce-0218-46ba-b5a7-7928e466bfe2",
+                    "count": 1
+                }
+            }
         },
         "ist": {
+            "id": "ist",
             "imageURL": "https://firebasestorage.googleapis.com/v0/b/d2wiki.appspot.com/o/runes%2FIst.png?alt=media&token=5d109f21-24e2-427f-a702-e342b04a4c88",
             "name": "Ist",
             "number": 24,
             "weaponEffect": "+30% Better Chance of Finding Magical Items",
             "armorEffect": "+25% Better Chance of Finding Magical Items",
             "shieldEffect": "+25% Better Chance of Finding Magical Items",
-            "clevelRequirement": 51
+            "clevelRequirement": 51,
+            "recipe": {
+                "rune": {
+                    "id": "um",
+                    "name": "Um",
+                    "imageURL": "https://firebasestorage.googleapis.com/v0/b/d2wiki.appspot.com/o/runes%2FUm.png?alt=media&token=9537759f-13a3-419c-923d-bdb9e328e969",
+                    "count": 2
+                },
+                "gem": {
+                    "id": "regular_amethyst",
+                    "name": "Amethyst",
+                    "imageURL": "https://firebasestorage.googleapis.com/v0/b/d2wiki.appspot.com/o/gems%2Fregular_amethyst.png?alt=media&token=03cae3a6-114a-4494-968a-76d9226ee58b",
+                    "count": 1
+                }
+            }
         },
         "gul": {
+            "id": "gul",
             "imageURL": "https://firebasestorage.googleapis.com/v0/b/d2wiki.appspot.com/o/runes%2FGul.png?alt=media&token=cc6369a0-900b-4f71-be2a-c90671d4eb4b",
             "name": "Gul",
             "number": 25,
             "weaponEffect": "+20% AR",
             "armorEffect": "+5 to Max Resist Poison",
             "shieldEffect": "+5 to Max Resist Poison",
-            "clevelRequirement": 53
+            "clevelRequirement": 53,
+            "recipe": {
+                "rune": {
+                    "id": "ist",
+                    "name": "Ist",
+                    "imageURL": "https://firebasestorage.googleapis.com/v0/b/d2wiki.appspot.com/o/runes%2FIst.png?alt=media&token=5d109f21-24e2-427f-a702-e342b04a4c88",
+                    "count": 2
+                },
+                "gem": {
+                    "id": "regular_sapphire",
+                    "name": "Sapphire",
+                    "imageURL": "https://firebasestorage.googleapis.com/v0/b/d2wiki.appspot.com/o/gems%2Fregular_sapphire.png?alt=media&token=71bbf35e-8610-47b3-b9dc-fa32275ce051",
+                    "count": 1
+                }
+            }
         },
         "vex": {
+            "id": "vex",
             "imageURL": "https://firebasestorage.googleapis.com/v0/b/d2wiki.appspot.com/o/runes%2FVex.png?alt=media&token=2d2e7410-f479-4b39-a98f-7f7bb205204a",
             "name": "Vex",
             "number": 26,
             "weaponEffect": "7% Mana Leech",
             "armorEffect": "+5 to Max Fire Resist",
             "shieldEffect": "+5 to Max Fire Resist",
-            "clevelRequirement": 55
+            "clevelRequirement": 55,
+            "recipe": {
+                "rune": {
+                    "id": "gul",
+                    "name": "Gul",
+                    "imageURL": "https://firebasestorage.googleapis.com/v0/b/d2wiki.appspot.com/o/runes%2FGul.png?alt=media&token=cc6369a0-900b-4f71-be2a-c90671d4eb4b",
+                    "count": 2
+                },
+                "gem": {
+                    "id": "regular_ruby",
+                    "name": "Ruby",
+                    "imageURL": "https://firebasestorage.googleapis.com/v0/b/d2wiki.appspot.com/o/gems%2Fregular_ruby.png?alt=media&token=d5cadc52-1263-4d05-996d-6322d6801e34",
+                    "count": 1
+                }
+            }
         },
         "ohm": {
+            "id": "ohm",
             "imageURL": "https://firebasestorage.googleapis.com/v0/b/d2wiki.appspot.com/o/runes%2FOhm.png?alt=media&token=2b1379d2-359e-4443-9370-4fc2cefcce87",
             "name": "Ohm",
             "number": 27,
             "weaponEffect": "+50% Damage",
             "armorEffect": "+5 to Max. Resist Cold",
             "shieldEffect": "+5 to Max. Resist Cold",
-            "clevelRequirement": 57
+            "clevelRequirement": 57,
+            "recipe": {
+                "rune": {
+                    "id": "vex",
+                    "name": "Vex",
+                    "imageURL": "https://firebasestorage.googleapis.com/v0/b/d2wiki.appspot.com/o/runes%2FVex.png?alt=media&token=2d2e7410-f479-4b39-a98f-7f7bb205204a",
+                    "count": 2
+                },
+                "gem": {
+                    "id": "regular_emerald",
+                    "name": "Emerald",
+                    "imageURL": "https://firebasestorage.googleapis.com/v0/b/d2wiki.appspot.com/o/gems%2Fregular_emerald.png?alt=media&token=e8b9206b-c2a7-4d5d-9895-ca80a84219b1",
+                    "count": 1
+                }
+            }
         },
         "lo": {
+            "id": "lo",
             "imageURL": "https://firebasestorage.googleapis.com/v0/b/d2wiki.appspot.com/o/runes%2FLo.png?alt=media&token=930c6ca2-572b-43b7-b802-40f675b19a51",
             "name": "Lo",
             "number": 28,
             "weaponEffect": "20% Chance of Deadly Strike",
             "armorEffect": "+5 to Max. Resist Lightning",
             "shieldEffect": "+5 to Max. Resist Lightning",
-            "clevelRequirement": 59
+            "clevelRequirement": 59,
+            "recipe": {
+                "rune": {
+                    "id": "ohm",
+                    "name": "Ohm",
+                    "imageURL": "https://firebasestorage.googleapis.com/v0/b/d2wiki.appspot.com/o/runes%2FOhm.png?alt=media&token=2b1379d2-359e-4443-9370-4fc2cefcce87",
+                    "count": 2
+                },
+                "gem": {
+                    "id": "regular_diamond",
+                    "name": "Diamond",
+                    "imageURL": "https://firebasestorage.googleapis.com/v0/b/d2wiki.appspot.com/o/gems%2Fregulard_diamond.png?alt=media&token=cc4a0628-b7b1-424d-be06-ee9afbcd41a8",
+                    "count": 1
+                }
+            }
         },
         "sur": {
+            "id": "sur",
             "imageURL": "https://firebasestorage.googleapis.com/v0/b/d2wiki.appspot.com/o/runes%2FSur.png?alt=media&token=ca08060c-d574-4891-8857-70a56ddb6ae1",
             "name": "Lo",
             "number": 29,
             "weaponEffect": "20% Chance of Hit Blinds Target",
             "armorEffect": "+5% total Mana",
             "shieldEffect": "+50 Mana",
-            "clevelRequirement": 61
+            "clevelRequirement": 61,
+            "recipe": {
+                "rune": {
+                    "id": "lo",
+                    "name": "Lo",
+                    "imageURL": "https://firebasestorage.googleapis.com/v0/b/d2wiki.appspot.com/o/runes%2FLo.png?alt=media&token=930c6ca2-572b-43b7-b802-40f675b19a51",
+                    "count": 2
+                },
+                "gem": {
+                    "id": "flawless_topaz",
+                    "name": "Flawless Topaz",
+                    "imageURL": "https://firebasestorage.googleapis.com/v0/b/d2wiki.appspot.com/o/gems%2Fflawless_topaz.png?alt=media&token=cdd5d26a-af2a-46d6-af5a-cfdc900e0bf1",
+                    "count": 1
+                }
+            }
         },
         "ber": {
+            "id": "ber",
             "imageURL": "https://firebasestorage.googleapis.com/v0/b/d2wiki.appspot.com/o/runes%2FBer.png?alt=media&token=8ade0585-ddf4-4ff6-a4d5-04f8d85f0d70",
             "name": "Lo",
             "number": 30,
             "weaponEffect": "20% Chance of Crushing Blow",
             "armorEffect": "Damage Reduced by 8%",
             "shieldEffect": "Damage Reduced by 8%",
-            "clevelRequirement": 63
+            "clevelRequirement": 63,
+            "recipe": {
+                "rune": {
+                    "id": "sur",
+                    "name": "Sur",
+                    "imageURL": "https://firebasestorage.googleapis.com/v0/b/d2wiki.appspot.com/o/runes%2FSur.png?alt=media&token=ca08060c-d574-4891-8857-70a56ddb6ae1",
+                    "count": 2
+                },
+                "gem": {
+                    "id": "flawless_amethyst",
+                    "name": "Flawless Amethyst",
+                    "imageURL": "https://firebasestorage.googleapis.com/v0/b/d2wiki.appspot.com/o/gems%2Fflawless_amethyst.png?alt=media&token=990c4275-7690-4a52-8166-3805ea5c8455",
+                    "count": 1
+                }
+            }
         },
         "jah": {
+            "id": "jah",
             "imageURL": "https://firebasestorage.googleapis.com/v0/b/d2wiki.appspot.com/o/runes%2FJah.png?alt=media&token=b484f12d-8572-4fa9-b650-0d6f941cb049",
             "name": "Jah",
             "number": 31,
             "weaponEffect": "Ignores Target Defense",
             "armorEffect": "+5% of total Hit Points",
             "shieldEffect": "+50 Hit Points",
-            "clevelRequirement": 65
+            "clevelRequirement": 65,
+            "recipe": {
+                "rune": {
+                    "id": "ber",
+                    "name": "Ber",
+                    "imageURL": "https://firebasestorage.googleapis.com/v0/b/d2wiki.appspot.com/o/runes%2FBer.png?alt=media&token=8ade0585-ddf4-4ff6-a4d5-04f8d85f0d70",
+                    "count": 2
+                },
+                "gem": {
+                    "id": "flawless_sapphire",
+                    "name": "Flawless Sapphire",
+                    "imageURL": "https://firebasestorage.googleapis.com/v0/b/d2wiki.appspot.com/o/gems%2Fflawless_sapphire.png?alt=media&token=a136fc76-b86f-4517-8d39-2ce0b8ac03d9",
+                    "count": 1
+                }
+            }
         },
         "cham": {
+            "id": "cham",
             "imageURL": "https://firebasestorage.googleapis.com/v0/b/d2wiki.appspot.com/o/runes%2FCham.png?alt=media&token=9745bb4a-ba0d-4167-8a1d-042b662b0e77",
             "name": "Cham",
             "number": 32,
             "weaponEffect": "32% Chance of Hit Freezing Target for 3 seconds",
             "armorEffect": "Cannot be Frozen",
             "shieldEffect": "Cannot be Frozen",
-            "clevelRequirement": 67
+            "clevelRequirement": 67,
+            "recipe": {
+                "rune": {
+                    "id": "jah",
+                    "name": "Jah",
+                    "imageURL": "https://firebasestorage.googleapis.com/v0/b/d2wiki.appspot.com/o/runes%2FJah.png?alt=media&token=b484f12d-8572-4fa9-b650-0d6f941cb049",
+                    "count": 2
+                },
+                "gem": {
+                    "id": "flawless_ruby",
+                    "name": "Flawless Ruby",
+                    "imageURL": "https://firebasestorage.googleapis.com/v0/b/d2wiki.appspot.com/o/gems%2Fflawless_ruby.png?alt=media&token=9e5da78d-6386-48c3-b6e1-41a558a10c59",
+                    "count": 1
+                }
+            }
         },
         "zod": {
+            "id": "zod",
             "imageURL": "https://firebasestorage.googleapis.com/v0/b/d2wiki.appspot.com/o/runes%2FZod.png?alt=media&token=888d821d-d554-4bd7-9e90-dae80faf10a7",
             "name": "Zod",
             "number": 33,
             "weaponEffect": "Indestructible",
             "armorEffect": "Indestructible",
             "shieldEffect": "Indestructible",
-            "clevelRequirement": 69
+            "clevelRequirement": 69,
+            "recipe": {
+                "rune": {
+                    "id": "cham",
+                    "name": "Cham",
+                    "imageURL": "https://firebasestorage.googleapis.com/v0/b/d2wiki.appspot.com/o/runes%2FCham.png?alt=media&token=9745bb4a-ba0d-4167-8a1d-042b662b0e77",
+                    "count": 2
+                },
+                "gem": {
+                    "id": "flawless_emerald",
+                    "name": "Flawless Emerald",
+                    "imageURL": "https://firebasestorage.googleapis.com/v0/b/d2wiki.appspot.com/o/gems%2Fflawless_emerald.png?alt=media&token=60c10d9e-6666-40fb-bff8-36a8ca5ceee2",
+                    "count": 1
+                }
+            }
         }
     }
 }
