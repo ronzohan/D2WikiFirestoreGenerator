@@ -7,12 +7,7 @@
             "weaponEffect": "+50 AR, +1 Light Radius",
             "armorEffect": "+1 Light Radius, +15 Defense",
             "shieldEffect": "+1 Light Radius, +15 Defense",
-            "clevelRequirement": 11,
-            "sources": {
-                "countess": "normal and above",
-                "hellforge": "normal",
-                "treasure_class": "Act 2 Good and above"
-            }
+            "clevelRequirement": 11
         },
         "eld": {
             "imageURL": "https://firebasestorage.googleapis.com/v0/b/d2wiki.appspot.com/o/runes%2FEld.png?alt=media&token=b7790882-21a5-46e2-bc4a-dd56c3ebb9df",
@@ -21,7 +16,15 @@
             "weaponEffect": "+75% Damage vs. Undead, +50 Attack Rating vs. Undead",
             "armorEffect": "Lowers Stamina drain by 15%",
             "shieldEffect": "+7% Blocking",
-            "clevelRequirement": 11
+            "clevelRequirement": 11,
+            "recipe": {
+                "rune": {
+                    "id": "el",
+                    "name": "El",
+                    "imageURL": "https://firebasestorage.googleapis.com/v0/b/d2wiki.appspot.com/o/runes%2FEl.png?alt=media&token=eeb0e898-fad1-432b-a79a-db53933f3fe2",
+                    "count": 3
+                }
+            }
         },
         "tir": {
             "imageURL": "https://firebasestorage.googleapis.com/v0/b/d2wiki.appspot.com/o/runes%2FTir.png?alt=media&token=4017b5ee-1e76-4a02-8bbc-38d2f83f3a4b",
@@ -30,7 +33,15 @@
             "weaponEffect": "+2 Mana Per Kill",
             "armorEffect": "+2 Mana Per Kill",
             "shieldEffect": "+2 Mana Per Kill",
-            "clevelRequirement": 13
+            "clevelRequirement": 13,
+            "recipe": {
+                "rune": {
+                    "id": "eld",
+                    "name": "Eld",
+                    "imageURL": "https://firebasestorage.googleapis.com/v0/b/d2wiki.appspot.com/o/runes%2FEld.png?alt=media&token=b7790882-21a5-46e2-bc4a-dd56c3ebb9df",
+                    "count": 3
+                }
+            }
         },
         "nef": {
             "imageURL": "https://firebasestorage.googleapis.com/v0/b/d2wiki.appspot.com/o/runes%2FNef.png?alt=media&token=ae8236e6-37df-4653-a38e-ec1d273865a4",
@@ -121,6 +132,187 @@
             "armorEffect": "Faster Hit Recovery (+20)",
             "shieldEffect": "Faster Block Rate (+20)",
             "clevelRequirement": 29
+        },
+        "dol": {
+            "imageURL": "https://firebasestorage.googleapis.com/v0/b/d2wiki.appspot.com/o/runes%2FDol.png?alt=media&token=004ecc72-b7f7-4c2d-b4c0-858b50df6e37",
+            "name": "Dol",
+            "number": 14,
+            "weaponEffect": "25% Chance that Hit Causes Monster to Flee",
+            "armorEffect": "+7 Replenish Life",
+            "shieldEffect": "+7 Replenish Life",
+            "clevelRequirement": 31
+        },
+        "hel": {
+            "imageURL": "https://firebasestorage.googleapis.com/v0/b/d2wiki.appspot.com/o/runes%2FHel.png?alt=media&token=592bc9df-b8e8-4809-a452-30ae420560a0",
+            "name": "Hel",
+            "number": 15,
+            "weaponEffect": "-20% Requirements",
+            "armorEffect": "-15% Requirements",
+            "shieldEffect": "-15% Requirements",
+            "clevelRequirement": null,
+            "ilevel": 33
+        },
+        "io": {
+            "imageURL": "https://firebasestorage.googleapis.com/v0/b/d2wiki.appspot.com/o/runes%2FIo.png?alt=media&token=8d233e6e-e516-432c-bfdc-66defd8a733b",
+            "name": "Io",
+            "number": 16,
+            "weaponEffect": "+10 Vitality",
+            "armorEffect": "+10 Vitality",
+            "shieldEffect": "+10 Vitality",
+            "clevelRequirement": 35
+        },
+        "lum": {
+            "imageURL": "https://firebasestorage.googleapis.com/v0/b/d2wiki.appspot.com/o/runes%2FLum.png?alt=media&token=956a9b57-0d49-4293-9952-e80d244fa1b0",
+            "name": "Lum",
+            "number": 17,
+            "weaponEffect": "+10 Energy",
+            "armorEffect": "+10 Energy",
+            "shieldEffect": "+10 Energy",
+            "clevelRequirement": 37
+        },
+        "ko": {
+            "imageURL": "https://firebasestorage.googleapis.com/v0/b/d2wiki.appspot.com/o/runes%2FKo.png?alt=media&token=82502fc5-d709-4ec8-9c34-81d822ec272e",
+            "name": "Ko",
+            "number": 18,
+            "weaponEffect": "+10 Dexterity",
+            "armorEffect": "+10 Dexterity",
+            "shieldEffect": "+10 Dexterity",
+            "clevelRequirement": 39
+        },
+        "fal": {
+            "imageURL": "https://firebasestorage.googleapis.com/v0/b/d2wiki.appspot.com/o/runes%2FFal.png?alt=media&token=094fdba5-f29a-4dc1-9603-29801861f460",
+            "name": "Fal",
+            "number": 19,
+            "weaponEffect": "+10 Strength",
+            "armorEffect": "+10 Strength",
+            "shieldEffect": "+10 Strength",
+            "clevelRequirement": 41
+        },
+        "lem": {
+            "imageURL": "https://firebasestorage.googleapis.com/v0/b/d2wiki.appspot.com/o/runes%2FLem.png?alt=media&token=36497581-bf54-4b1f-96bd-065d0d80ec3b",
+            "name": "Lem",
+            "number": 20,
+            "weaponEffect": "+75% Extra Gold from Monsters",
+            "armorEffect": "+50% Extra Gold from Monsters",
+            "shieldEffect": "+50% Extra Gold from Monsters",
+            "clevelRequirement": 43
+        },
+        "pul": {
+            "imageURL": "https://firebasestorage.googleapis.com/v0/b/d2wiki.appspot.com/o/runes%2FPul.png?alt=media&token=990a49cb-a1c8-4f67-b809-28f561a8e81f",
+            "name": "Pul",
+            "number": 21,
+            "weaponEffect": "+75% Damage to Demons, +100 AR against Demons",
+            "armorEffect": "+30% Defense",
+            "shieldEffect": "+30% Defense",
+            "clevelRequirement": 45
+        },
+        "um": {
+            "imageURL": "https://firebasestorage.googleapis.com/v0/b/d2wiki.appspot.com/o/runes%2FUm.png?alt=media&token=9537759f-13a3-419c-923d-bdb9e328e969",
+            "name": "Um",
+            "number": 22,
+            "weaponEffect": "25% Chance of Open Wounds",
+            "armorEffect": "+15% Resist All",
+            "shieldEffect": "+22% Resist All",
+            "clevelRequirement": 47
+        },
+        "mal": {
+            "imageURL": "https://firebasestorage.googleapis.com/v0/b/d2wiki.appspot.com/o/runes%2FMal.png?alt=media&token=8590f501-46bc-441e-a21f-ba1fd18fc633",
+            "name": "Mal",
+            "number": 23,
+            "weaponEffect": "Prevent Monster Healing",
+            "armorEffect": "Reduce Magic Damage by 7",
+            "shieldEffect": "Reduce Magic Damage by 7",
+            "clevelRequirement": 49
+        },
+        "ist": {
+            "imageURL": "https://firebasestorage.googleapis.com/v0/b/d2wiki.appspot.com/o/runes%2FIst.png?alt=media&token=5d109f21-24e2-427f-a702-e342b04a4c88",
+            "name": "Ist",
+            "number": 24,
+            "weaponEffect": "+30% Better Chance of Finding Magical Items",
+            "armorEffect": "+25% Better Chance of Finding Magical Items",
+            "shieldEffect": "+25% Better Chance of Finding Magical Items",
+            "clevelRequirement": 51
+        },
+        "gul": {
+            "imageURL": "https://firebasestorage.googleapis.com/v0/b/d2wiki.appspot.com/o/runes%2FGul.png?alt=media&token=cc6369a0-900b-4f71-be2a-c90671d4eb4b",
+            "name": "Gul",
+            "number": 25,
+            "weaponEffect": "+20% AR",
+            "armorEffect": "+5 to Max Resist Poison",
+            "shieldEffect": "+5 to Max Resist Poison",
+            "clevelRequirement": 53
+        },
+        "vex": {
+            "imageURL": "https://firebasestorage.googleapis.com/v0/b/d2wiki.appspot.com/o/runes%2FVex.png?alt=media&token=2d2e7410-f479-4b39-a98f-7f7bb205204a",
+            "name": "Vex",
+            "number": 26,
+            "weaponEffect": "7% Mana Leech",
+            "armorEffect": "+5 to Max Fire Resist",
+            "shieldEffect": "+5 to Max Fire Resist",
+            "clevelRequirement": 55
+        },
+        "ohm": {
+            "imageURL": "https://firebasestorage.googleapis.com/v0/b/d2wiki.appspot.com/o/runes%2FOhm.png?alt=media&token=2b1379d2-359e-4443-9370-4fc2cefcce87",
+            "name": "Ohm",
+            "number": 27,
+            "weaponEffect": "+50% Damage",
+            "armorEffect": "+5 to Max. Resist Cold",
+            "shieldEffect": "+5 to Max. Resist Cold",
+            "clevelRequirement": 57
+        },
+        "lo": {
+            "imageURL": "https://firebasestorage.googleapis.com/v0/b/d2wiki.appspot.com/o/runes%2FLo.png?alt=media&token=930c6ca2-572b-43b7-b802-40f675b19a51",
+            "name": "Lo",
+            "number": 28,
+            "weaponEffect": "20% Chance of Deadly Strike",
+            "armorEffect": "+5 to Max. Resist Lightning",
+            "shieldEffect": "+5 to Max. Resist Lightning",
+            "clevelRequirement": 59
+        },
+        "sur": {
+            "imageURL": "https://firebasestorage.googleapis.com/v0/b/d2wiki.appspot.com/o/runes%2FSur.png?alt=media&token=ca08060c-d574-4891-8857-70a56ddb6ae1",
+            "name": "Lo",
+            "number": 29,
+            "weaponEffect": "20% Chance of Hit Blinds Target",
+            "armorEffect": "+5% total Mana",
+            "shieldEffect": "+50 Mana",
+            "clevelRequirement": 61
+        },
+        "ber": {
+            "imageURL": "https://firebasestorage.googleapis.com/v0/b/d2wiki.appspot.com/o/runes%2FBer.png?alt=media&token=8ade0585-ddf4-4ff6-a4d5-04f8d85f0d70",
+            "name": "Lo",
+            "number": 30,
+            "weaponEffect": "20% Chance of Crushing Blow",
+            "armorEffect": "Damage Reduced by 8%",
+            "shieldEffect": "Damage Reduced by 8%",
+            "clevelRequirement": 63
+        },
+        "jah": {
+            "imageURL": "https://firebasestorage.googleapis.com/v0/b/d2wiki.appspot.com/o/runes%2FJah.png?alt=media&token=b484f12d-8572-4fa9-b650-0d6f941cb049",
+            "name": "Jah",
+            "number": 31,
+            "weaponEffect": "Ignores Target Defense",
+            "armorEffect": "+5% of total Hit Points",
+            "shieldEffect": "+50 Hit Points",
+            "clevelRequirement": 65
+        },
+        "cham": {
+            "imageURL": "https://firebasestorage.googleapis.com/v0/b/d2wiki.appspot.com/o/runes%2FCham.png?alt=media&token=9745bb4a-ba0d-4167-8a1d-042b662b0e77",
+            "name": "Cham",
+            "number": 32,
+            "weaponEffect": "32% Chance of Hit Freezing Target for 3 seconds",
+            "armorEffect": "Cannot be Frozen",
+            "shieldEffect": "Cannot be Frozen",
+            "clevelRequirement": 67
+        },
+        "zod": {
+            "imageURL": "https://firebasestorage.googleapis.com/v0/b/d2wiki.appspot.com/o/runes%2FZod.png?alt=media&token=888d821d-d554-4bd7-9e90-dae80faf10a7",
+            "name": "Zod",
+            "number": 33,
+            "weaponEffect": "Indestructible",
+            "armorEffect": "Indestructible",
+            "shieldEffect": "Indestructible",
+            "clevelRequirement": 69
         }
     }
 }
